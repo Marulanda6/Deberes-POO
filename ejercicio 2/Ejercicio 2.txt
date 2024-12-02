@@ -1,0 +1,32 @@
+Clase Padre (Superclase)
+La clase padre es Persona, ya que tiene atributos y métodos comunes a las demás clases.
+
+Atributos de Persona:
+id: Integer
+Nombre: String
+Apellidos: String
+Edad: Integer
+Métodos de Persona:
+Concentrarse(): void
+Viajar(): void
+Clases Hijas (Subclases)
+Las subclases son las especializaciones de la clase padre Persona. Cada una tiene atributos y métodos propios:
+
+1. Futbolista
+Atributos adicionales:
+demarcacion: String
+Métodos adicionales:
+jugarPartido(): void
+entrenar(): void
+2. Entrenador
+Atributos adicionales:
+idFederacion: String
+Métodos adicionales:
+dirigirPartido(): void
+dirigirEntrenamiento(): void
+3. Masajista
+Atributos adicionales:
+Titulacion: String
+aniosExperiencia: Integer
+Métodos adicionales:
+darMasaje(): void
